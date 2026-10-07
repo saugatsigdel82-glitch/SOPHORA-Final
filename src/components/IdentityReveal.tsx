@@ -42,37 +42,34 @@ export const IdentityReveal: React.FC<IdentityRevealProps> = ({ progress }) => {
         {/* Hero Identity Display Title */}
         <h1
           style={{
-            fontFamily: "'Cinzel', serif",
-            fontWeight: 800,
-            fontSize: 'clamp(2.5rem, 7vw, 5.4rem)',
-            lineHeight: 1.05,
+            fontFamily: "'UnifrakturCook', 'UnifrakturMaguntia', cursive, serif",
+            fontWeight: 700,
+            fontSize: 'clamp(2.6rem, 7vw, 5.2rem)',
+            lineHeight: 1.1,
             letterSpacing: '0.04em',
             color: '#f4f7f2',
             textShadow: '0 4px 30px rgba(0, 0, 0, 0.95), 0 2px 8px rgba(0, 0, 0, 0.9)',
-            marginBottom: '1.25rem',
+            marginBottom: '1rem',
           }}
         >
           SAUGAT SIGDEL
         </h1>
 
-        {/* Supporting Line / Exploration Prompt */}
-        <div
+        {/* Founder Subtitle - Modern, clean, and understated */}
+        <p
           style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '0.65rem',
             fontFamily: "'Space Grotesk', sans-serif",
-            fontSize: 'clamp(0.62rem, 2.1vw, 0.8rem)',
-            letterSpacing: 'clamp(0.12em, 0.5vw, 0.22em)',
+            fontSize: 'clamp(0.72rem, 1.8vw, 0.92rem)',
+            letterSpacing: 'clamp(0.12em, 0.4vw, 0.22em)',
             textTransform: 'uppercase',
             color: '#a3baa0',
             textShadow: '0 2px 8px rgba(0, 0, 0, 0.9)',
-            whiteSpace: 'nowrap',
+            margin: 0,
+            lineHeight: 1.4,
           }}
         >
-          <span>DIVE INTO THE WORLD I'M BUILDING</span>
-          <span style={{ fontSize: '1.05rem', lineHeight: 1 }}>↓</span>
-        </div>
+          Founder of CultureNest & CultureBuilds
+        </p>
       </div>
     </div>
   );
